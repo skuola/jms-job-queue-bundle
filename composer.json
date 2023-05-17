@@ -1,0 +1,54 @@
+{
+  "name": "dev/jms-job-queue-bundle",
+  "version": "4.3.4",
+  "description": "Allows to run and schedule Symfony console commands as background jobs.",
+  "keywords": [
+    "job",
+    "queue",
+    "background",
+    "cron",
+    "scheduled"
+  ],
+  "homepage": "http://jmsyst.com/bundles/JMSJobQueueBundle",
+  "type": "symfony-bundle",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Johannes M. Schmitt",
+      "email": "schmittjoh@gmail.com"
+    },
+    {
+      "name": "Eduard Deza",
+      "email": "edezacas@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "symfony/framework-bundle": "^4.0|^5.0",
+    "symfony/process": "*",
+    "symfony/orm-pack": "*"
+  },
+  "require-dev": {
+    "doctrine/doctrine-fixtures-bundle": "*",
+    "symfony/yaml": "*",
+    "doctrine/orm": "*",
+    "symfony/test-pack": "^1.0",
+    "symfony/monolog-bundle": "^3.6",
+    "symfony/twig-bundle": "*",
+    "symfony/dotenv": "^5.4"
+  },
+  "suggest": {
+    "symfony/twig-bundle": "Required when using the webinterface."
+  },
+  "autoload": {
+    "psr-4": {
+      "JMS\\JobQueueBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JMS\\JobQueueBundle\\Tests\\": "tests/"
+    }
+  }
+}
