@@ -38,7 +38,7 @@ class JobQueueExtension extends AbstractExtension
         );
     }
 
-    public function formatArgs(array $args, $maxLength = 60)
+    public function formatArgs(array|object $args, $maxLength = 60)
     {
         $str = '';
         $first = true;
