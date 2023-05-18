@@ -1,4 +1,4 @@
-edezacas/job-queue-bundle [![Build Status](https://app.travis-ci.com/edezacas/job-queue-bundle.svg?branch=master)](https://app.travis-ci.com/github/edezacas/job-queue-bundle)
+skuola/jms-job-queue-bundle [![Build Status](https://app.travis-ci.com/edezacas/job-queue-bundle.svg?branch=master)](https://app.travis-ci.com/github/edezacas/job-queue-bundle)
 =================
 
 Forked from [schmittjoh/JMSJobQueueBundle](https://github.com/schmittjoh/JMSJobQueueBundle).
