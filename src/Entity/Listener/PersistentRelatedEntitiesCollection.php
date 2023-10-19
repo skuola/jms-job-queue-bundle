@@ -45,6 +45,20 @@ class PersistentRelatedEntitiesCollection implements Collection, Selectable
     }
 
     /**
+     * @param Closure $p
+     * @return mixed
+     *
+     * This method has not been implemented yet.
+     * It is needed only to prevent errors because it is declared in
+     * the interface Doctrine\Common\Collections\ReadableCollection::findFirst
+     */
+    public function findFirst(Closure $p)
+    {
+        throw new \RuntimeException('Method findFirst() has not been implemented yet.');
+    }
+
+
+    /**
      * Sets the internal iterator to the first element in the collection and
      * returns this element.
      *
