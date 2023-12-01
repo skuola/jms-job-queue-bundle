@@ -542,7 +542,7 @@ class PersistentRelatedEntitiesCollection implements Collection, Selectable
             return;
         }
 
-        $con = $this->registry->getManagerForClass('JMSJobQueueBundle:Job')->getConnection();
+        $con = $this->registry->getManagerForClass(Job::class)->getConnection();
         $entitiesPerClass = array();
         $count = 0;
         foreach ($con->executeQuery("SELECT related_class, related_id FROM jms_job_related_entities WHERE job_id = " . $this->job->getId())->fetchAllAssociative() as $data) {
