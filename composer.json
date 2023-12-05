@@ -1,6 +1,6 @@
 {
   "name": "jms/job-queue-bundle",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Allows to run and schedule Symfony console commands as background jobs.",
   "keywords": [
     "job",
@@ -53,7 +53,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-main": "2.1.0"
+      "dev-main": "2.2.0"
     }
   }
 }
